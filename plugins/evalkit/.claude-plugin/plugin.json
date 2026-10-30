@@ -1,0 +1,9 @@
+{
+  "name": "evalkit",
+  "description": "Test whether a skill (or a CLAUDE.md rule or hook) does what you think: build an eval suite, fill it, and run it on more than one model.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Barr"
+  },
+  "keywords": ["eval", "skills", "testing"]
+}

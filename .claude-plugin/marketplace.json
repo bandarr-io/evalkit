@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "evalkit",
+  "description": "Eval suites for Claude Code skills",
+  "owner": {
+    "name": "Daniel Barr"
+  },
+  "plugins": [
+    {
+      "name": "evalkit",
+      "description": "Test whether a skill (or a CLAUDE.md rule or hook) does what you think: build an eval suite, fill it, and run it on more than one model.",
+      "author": { "name": "Daniel Barr" },
+      "category": "development",
+      "source": "./plugins/evalkit"
+    }
+  ]
+}
